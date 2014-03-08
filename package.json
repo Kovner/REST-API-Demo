@@ -1,0 +1,16 @@
+{
+	"name":"TabRest",
+	"version":"0.0.1",
+	"description":"Tableau Server REST API Demo",
+	"dependencies": {
+		"express":"latest",
+		"jade":"latest",
+		"ejs": "latest"
+	},
+	"author": "Michael Kovner",
+	"repository": {
+	   "type": "git",
+	   "url": "https://github.com/Kovner/TabRest.git"
+	 },
+	"main": "app.js"
+}
