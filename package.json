@@ -5,7 +5,8 @@
 	"dependencies": {
 		"express":"latest",
 		"jade":"latest",
-		"ejs": "latest"
+		"ejs": "latest",
+		"request": "latest"
 	},
 	"author": "Michael Kovner",
 	"repository": {
