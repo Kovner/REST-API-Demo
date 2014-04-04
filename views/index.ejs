@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>TabREST: Tableau Server REST API Demo</title>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/tabrest.css">
+	<!-- <link rel="stylesheet" type="text/css" href="/stylesheets/tabchat.css"> -->
+	<!-- <script type="text/javascript" src='/javascripts/jquery-2.1.0.min.js'></script> -->
+	<!--<script type="text/javascript" src='/javascripts/bootstrap.min.js'></script>-->
+</head>
+<body>
+	<div class="container">
+		<div class="row navbar-fixed-top" id="headerRow">
+			<div class="col-md-12 column">
+				<div class="page-header">
+					<h1 class = 'text-center'>
+						Tableau Server REST API Demo
+					</h1>
+				</div>
+			</div>
+		</div>
+		<div class="row" id="bodyRow">
+			<div class="col-md-6 column">
+				<form role="form" method="post" action="/login">
+					<div class="form-group">
+						 <label for="Username">Username</label><input type="text" class="form-control" id="Username" name="Username">
+					</div>
+					<div class="form-group">
+						 <label for="Pass">Password</label><input type="password" class="form-control" id="Pass" name="Pass">
+					</div>
+					<button type="submit" class="btn btn-default">Login</button>
+				</form>
+			</div>
+			<div class="col-md-6 column">
+
+				<pre id="request"><b>Last Request: </b><br><%=requestText || ''%></pre>
+
+				<pre id="response"><b>Last Response: </b><br><%=responseText || ''%></pre>
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>

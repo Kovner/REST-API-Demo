@@ -6,7 +6,9 @@
 		"express":"latest",
 		"jade":"latest",
 		"ejs": "latest",
-		"request": "latest"
+		"request": "latest",
+		"xml-writer": "latest",
+		"pretty-data": "latest"
 	},
 	"author": "Michael Kovner",
 	"repository": {

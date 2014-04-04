@@ -1,0 +1,27 @@
+#request {
+	height: 250px;
+	width: 650px;
+	position: fixed;
+}
+#response {
+	height: 250px;
+	width: 650px;
+	position: fixed;
+	top: 400px;
+}
+
+#bodyRow {
+	padding-top: 110px;
+}
+
+#headerRow {
+	background-color: #fff;
+}
+
+.page-header {
+	margin: 0;
+},
+
+pre {
+	border:0;
+}
