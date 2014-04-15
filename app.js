@@ -40,6 +40,6 @@ app.post('/login', function(req,res) {
 	);
 });
 
-var port = Number(process.env.PORT || 8000);
+var port = Number(process.env.PORT || 8001);
 app.listen(port);
 console.log("Listening on port " + port);
